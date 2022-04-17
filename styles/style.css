@@ -1,3 +1,36 @@
+:root {
+  --primary-color: #fa709a;
+  --secondary-color: #5e5253;
+}
+html {
+  max-width: 100%;
+  border: 6px solid;
+  border-image-source: linear-gradient(90deg, #f7c9c9, #fa709a 70%);
+  border-image-slice: 1;
+}
+body {
+  background: #faeee7;
+  padding: 70px;
+}
+h1,
+h2 {
+  color: var(--secondary-color);
+}
+h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 120px;
+}
+h2 {
+  font-family: "Merriweather", serif;
+  font-size: 50px;
+}
 .fa-brands {
+  padding-top: 30px;
   font-size: 36px;
+  color: var(--primary-color);
+}
+.social-links a {
+  padding: 15px;
+  text-decoration: none;
+  color: white;
 }
