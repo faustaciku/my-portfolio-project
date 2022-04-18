@@ -58,6 +58,13 @@ a {
   text-decoration: none;
   color: var(--secondary-color);
 }
+.paragraph-about-me {
+  font-size: 20px;
+}
+.skills i {
+  padding: 10px;
+  font-size: 70px;
+}
 @media (max-width: 657px) {
   h1 {
     font-size: 50px;
