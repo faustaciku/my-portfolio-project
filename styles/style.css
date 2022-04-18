@@ -54,6 +54,10 @@ h3 {
   border-radius: 50%;
   border: 8px dotted var(--primary-color);
 }
+a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
 @media (max-width: 657px) {
   h1 {
     font-size: 50px;
