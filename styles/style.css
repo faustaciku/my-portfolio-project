@@ -11,10 +11,17 @@ h1 {
   font-size: 120px;
   color: #33272a;
 }
-h2 {
+h2,
+h3 {
   font-family: "Merriweather", serif;
+}
+h2 {
   font-size: 50px;
   color: var(--secondary-color);
+}
+h3 {
+  font-size: 35px;
+  text-decoration: var(--primary-color) underline;
 }
 .fa-brands {
   padding-top: 30px;
@@ -36,4 +43,24 @@ h2 {
   padding: 10px;
   border-radius: 20px;
   font-size: 20px;
+}
+.mt-5 {
+  margin-top: 120px !important;
+}
+.rounded {
+  border-radius: 80px !important;
+}
+.my-image {
+  border-radius: 100px;
+}
+@media (max-width: 657px) {
+  h1 {
+    font-size: 80px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 24px;
+  }
 }
