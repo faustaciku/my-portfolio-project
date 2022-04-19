@@ -80,6 +80,10 @@ a {
 }
 .contact-icons {
   font-size: 170px;
+  color: var(--primary-color);
+  background: var(--secondary-color);
+  border-radius: 50%;
+  padding: 30px;
 }
 @media (max-width: 768px) {
   h1 {
