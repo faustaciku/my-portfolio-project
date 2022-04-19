@@ -54,18 +54,23 @@ h3 {
   border-radius: 50%;
   border: 8px dotted var(--primary-color);
 }
+.my-portrait {
+  border-radius: 50px;
+  max-height: 500px;
+  padding: 0;
+}
 a {
   text-decoration: none;
   color: var(--secondary-color);
 }
 .paragraph-about-me {
-  font-size: 20px;
+  font-size: 30px;
 }
 .skills i {
   padding: 10px;
   font-size: 70px;
 }
-@media (max-width: 657px) {
+@media (max-width: 575px) {
   h1 {
     font-size: 50px;
   }
@@ -74,5 +79,11 @@ a {
   }
   h3 {
     font-size: 24px;
+  }
+  p {
+    text-align: left;
+  }
+  .text-sm-start {
+    margin-left: 3px !important;
   }
 }
