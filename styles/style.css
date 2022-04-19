@@ -56,7 +56,7 @@ h3 {
 }
 .my-portrait {
   border-radius: 50px;
-  max-height: 500px;
+  max-height: 600px;
   padding: 0;
 }
 a {
@@ -64,7 +64,7 @@ a {
   color: var(--secondary-color);
 }
 .paragraph-about-me {
-  font-size: 30px;
+  font-size: 25px;
 }
 .skills i {
   padding: 10px;
@@ -88,5 +88,8 @@ a {
   }
   .paragraph-about-me {
     font-size: 18px;
+  }
+  .open-sourced {
+    text-align: center;
   }
 }
