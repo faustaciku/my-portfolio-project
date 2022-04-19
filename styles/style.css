@@ -86,4 +86,7 @@ a {
   .text-sm-start {
     margin-left: 3px !important;
   }
+  .paragraph-about-me {
+    font-size: 18px;
+  }
 }
