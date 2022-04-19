@@ -19,9 +19,12 @@ h2 {
   font-size: 50px;
   color: var(--secondary-color);
 }
+h1,
+h3 {
+  text-decoration: var(--primary-color) underline;
+}
 h3 {
   font-size: 35px;
-  text-decoration: var(--primary-color) underline;
 }
 .fa-brands {
   padding-top: 30px;
